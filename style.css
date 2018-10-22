@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(135deg,red,blue);
+}
+p {
+    margin-left: 10%;
+}
+a{
+    color:white;
+}
+.header{
+    color:white;
+    display:flex;
+    align-items:baseline;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.logo {
+    display: flex;
+    flex-grow: 1;
+}
+.sign-in {
+    text-transform: uppercase;
+    border:5px solid white;
+    padding: 15px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+.login {
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.main {
+    margin-left: 28%;
+}  
+.converstation { 
+    margin:5%;
+}
+.conversation-box{
+    height: 50%;
+    max-height:500px;
+    width: 50%;
+    max-width:500px;
+    padding: 5px;
+    border-radius:35px;
+    margin:0.3% ;
+    background-color:white;
+}
+.conversation-box-with-image img {
+    width:41%;
+    height: 185px;
+    border-radius:35px;
+}
+.user-actions{ 
+    color:white;
+
+    padding-top:1%;
+}
+.user-action{
+    color:white;
+    border:1px solid rgb(228, 57, 85);
+    background-color:rgb(228, 57, 85);
+    width:15%;
+    height: 40px;
+    margin-right:0.5%;
+
+}
+.user-actions-label {
+    text-transform: uppercase;
+}
+.footer{
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
